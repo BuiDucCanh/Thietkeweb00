@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color:blue ;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.col{
+    float: left;
+    width: 33.3%;
+    height: 550px;
+}
+.content:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer{
+    background-color: blue;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+@media (max-width:600px){
+    .col{
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<h1>display: grid</h1>
+
+<p>Use display: grid; to make a block-level grid container:</p>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>  
+</div>
+
+</body>
+</html>
