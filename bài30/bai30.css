@@ -230,7 +230,7 @@ h2{
     width: 100%;
     height: 550px;
     background-image: url(tainghecho.png);
-    opacity: 82%;
+    opacity: 50%;
 }
 .icon-hop5{
     display: flex;
@@ -455,7 +455,7 @@ h2{
 .circle i{
    font-size: 22px;
 }
-.khanh-dog-36:hover .icon-play{
+.n1:hover .icon-play{
     display: block;
     display: flex ;
     align-items: center ;
